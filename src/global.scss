@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../src/assets/fonts/Mulish-Medium.ttf');
+}
+
+:root {
+  font-size: 26px;
+}
+
+body {
+  /* width: 100vw; */
+  /* height: 100vh; */
+  position: relative;
+  font-family: 'Mulish';
+
+  &::before {
+    position: fixed;
+    content: '';
+    top: 0;
+    left: 0;
+    max-width: 80%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../src/assets/images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &-content {
+    width: 21.5rem;
+    padding: 2.4rem 1.4rem;
+    border-radius: 2.5rem;
+    background: #FEFEFE;
+  }
+  
+  &__title {
+    color: #151515;
+    font-family: Mulish;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+.form-field_input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: .8rem;
+  height: 2.5rem;
+  padding: 0 0.8rem;
+  border: 1px solid #b7b7b7;
+  border-radius: 6px;
+  border: 1px solid #EBEBEB;
+  background: #FEFEFE;
+  outline: unset;
+
+  &:focus {
+    box-shadow: 0px 4px 18px 0px rgba(51, 51, 51, 0.04);
+  }
+}
+
+//_____________MEDIA QUERY__________
+
+@media (max-width: 2800.98px) {
+  :root {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 2600.98px) {
+  :root {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 2300.98px) {
+  :root {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 2100.98px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1800.98px) {
+  :root {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 1700.98px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1600.98px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1500.98px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1400.98px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1300.98px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1200.98px) {
+  :root {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1100.98px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1000.98px) {
+  :root {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 900.98px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 389.98px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375.98px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 345.98px) {
+  :root {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 330.98px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320.98px) {
+  :root {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 300.98px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
+//___________MOBILE-LANDSCAPE________
+
+@media (max-width: 1000px) and (orientation: landscape) {
+  :root {
+    font-size: 8.5px;
+  }
+}
+
+@media (max-width: 700px) and (orientation: landscape) {
+  :root {
+    font-size: 8px;
+  }
+}
